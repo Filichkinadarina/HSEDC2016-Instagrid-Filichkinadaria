@@ -1,0 +1,12 @@
+h1, h2 {
+  font-family: 'Nunito Sans', sans-serif;
+  color: black;
+}
+
+.me img {
+  margin-bottom: 31px;
+  width: 608px;
+  height: 354px;
+  background-size: cover;
+  background-position: center;
+}

@@ -1,0 +1,51 @@
+.gallerySmall {
+  position: absolute;
+  overflow: scroll;
+  overflow-y: hidden;
+  display: flex;
+  align-items: center;
+  width: 120vh;
+  height: 60vh;
+}
+
+.imagesSmall {
+  display: flex;
+}
+
+.blockSmall {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 87vh;
+  height: 60vh;
+}
+
+.bigSmall {
+  width: 58vh;
+  height: 58vh;
+}
+
+.smallSmall {
+  width: 30vh;
+  height: 57vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.bigImgSmall {
+  width: 58vh;
+  height: 58vh;
+}
+
+.smallImgSmall {
+  width: 29vh;
+  height: 29vh;
+}
+
+@media screen and (max-width: 1460px) {
+  .body {
+    width: 100%
+  }
+}
